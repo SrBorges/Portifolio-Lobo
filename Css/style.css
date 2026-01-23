@@ -97,11 +97,76 @@ cite{
 
 .textoEsq__frase{
 
-    font-size: 8rem;
+    font-size: 7rem;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     color: #6f737e;
     text-transform: uppercase;
     
 
+}
+
+.textoDir{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+
+}
+
+.textoDir__topo{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+
+}
+
+.box1{
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   grid-column: 2;
+   background-color: #ccd2d3;
+   border: 2px solid #ccd2d3;
+   padding: 20px;
+   
+
+}
+
+.box1 p{
+
+     font-size: 1.3rem;
+     font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.box1__left{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+
+}
+
+.box1__texto{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+}
+
+.destaque{
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.box1__left span{
+
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    
+    
+    
 }
